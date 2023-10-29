@@ -1,0 +1,7 @@
+aab aaabaaababaabaa 1\
+bab baabbbaaabbaabb -1\
+ca bababababababac -1\
+abc bababcabcabbaa 3\
+xyz xzzzxyxzyxyzxyy 9\
+xyx xz -1\
+abc abcabcabc 0}
