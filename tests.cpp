@@ -15,7 +15,7 @@ TEST_CASE("PROCESS FILE") {
 }
 TEST_CASE("TEST 1") {
     std::string pattern = "CAT";
-    std::vector<int> calculated = process(pattern);
+    std::vector<int> calculated = pre_process(pattern);
     std::vector<int> actual = {0,0,0};
     std::vector<int> output = {17,84};
     REQUIRE(actual == calculated);
@@ -24,7 +24,7 @@ TEST_CASE("TEST 1") {
 }
 TEST_CASE("TEST 2") {
     std::string pattern1 = "GGGT";
-    std::vector<int> calculated1 = process(pattern);
+    std::vector<int> calculated1 = pre_process(pattern);
     std::vector<int> actual1 = {0,1,2,0};
     std::vector<int> output1 = {22};
     REQUIRE(actual1 == calculated1);
@@ -33,7 +33,7 @@ TEST_CASE("TEST 2") {
 }
 TEST_CASE("TEST 3") {
     std::string pattern = "AAG";
-    std::vector<int> calculated2 = process(pattern);
+    std::vector<int> calculated2 = pre_process(pattern);
     std::vector<int> actual2 = {0,1,0};
     std::vector<int> output2 = {0,14};
     REQUIRE(actual2 == calculated2);
@@ -42,7 +42,7 @@ TEST_CASE("TEST 3") {
 }
 TEST_CASE("TEST 4") {
     std::string pattern3 = "GTGT";
-    std::vector<int> calculated3 = process(pattern);
+    std::vector<int> calculated3 = pre_process(pattern);
     std::vector<int> actual3 = 0,0,1,2};
     std::vector<int> output3 = {0,7};
     REQUIRE(actual3 == calculated3);
@@ -51,7 +51,7 @@ TEST_CASE("TEST 4") {
 }
 TEST_CASE("TEST 5") {
     std::string pattern4 = "ATT";
-    std::vector<int> calculated4 = process(pattern);
+    std::vector<int> calculated4 = pre_process(pattern);
     std::vector<int> actual4 = {0,0,0};
     std::vector<int> output4 = {2,6,98};
     REQUIRE(actual4 == calculated3);

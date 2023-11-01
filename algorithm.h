@@ -13,6 +13,6 @@
 using std::vector;
 using std::string;
 
-std::vector<int> kmp(std::string pattern, std::string text);
-
-std::vector<int> next(std::string pattern);
+std::vector<std::string> file_process(std::string filename);
+std::vector<int> pre_process(std::string pattern);
+std::vector<int> kmp(std::string dna_strand, std::string pattern, std::vector<int> pre_process);
