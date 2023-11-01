@@ -1,7 +1,0 @@
-aab aaabaaababaabaa [1, 5, 10]
-bab baabbbaaabbaabb [-1]
-ca bababababababac [-1]
-abc bababcabcabbaa [3,6]
-xyz xzzzxyxzyxyzxyy [4,9]
-xyx xz [-1]
-aaba aabaacaadaabaaba [0,9,12]
